@@ -46,14 +46,14 @@ body {
 
 }
 
-.subline {
+.sub-headline {
 
     margin: 0;
 
     color: white;
 }
 
-.subline:after {
+.sub-headline:after {
 
     display: block;
 
@@ -63,7 +63,7 @@ body {
     transition: transform 250ms ease-in-out;
 }
 
-.subline:hover:after {
+.sub-headline:hover:after {
 
     transform: scaleX(1);
 }
