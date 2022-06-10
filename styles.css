@@ -21,50 +21,45 @@ a img, :link img, :visited img {
 /* Styling starts here */
 
 body {
-    background: #6667AB;
+    background: #2a2d36;
 }
 
-.container {
+.page {
+    margin-right: 10%;
+    margin-left: 10%;
+}
 
-    width: 100vw;
-    height: 100vh;
+.header, .textcontainer {
+    margin-top: 1rem;
+    padding: 2rem;
+
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
 
-    cursor: default;
-
+    background: #4e536a;
+    border-radius: 2rem;
 }
 
 .headline {
 
-    margin: 2rem 0;
-
-    font-size: 5rem;
+    font-size: 3rem;
     color: white;
-
 }
 
 .sub-headline {
 
-    margin: 0;
+    color: #898c93;
+}
 
+.logo {
+
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.text{
     color: white;
+    font-size: 2rem;
 }
-
-.sub-headline:after {
-
-    display: block;
-
-    content: '';
-    border-bottom: solid 3px white;
-    transform: scaleX(0);
-    transition: transform 250ms ease-in-out;
-}
-
-.sub-headline:hover:after {
-
-    transform: scaleX(1);
-}
-
